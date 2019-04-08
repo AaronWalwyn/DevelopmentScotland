@@ -1,5 +1,5 @@
 var _map = Initialise();
-AddPoly();
+//AddPoly();
 LoadDevelopmentData();
 
 function Initialise()
@@ -34,7 +34,7 @@ function AddPoly()
 
 function LoadDevelopmentData()
 {
-    $.getJSON( "data.json", __LoadDevelopmentData);
+    $.getJSON( "js/data.json", __LoadDevelopmentData);
 }
 
 function __LoadDevelopmentData(data)
