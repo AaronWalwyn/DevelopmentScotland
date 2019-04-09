@@ -78,11 +78,28 @@ body {
 
 .box .row.header {
   flex: 0 1 auto;
-  /* The above is shorthand for:
-    flex-grow: 0,
-    flex-shrink: 1,
-    flex-basis: auto
-    */
+}
+
+.dev-toolbar {
+  font-size: 10pt;
+}
+
+.box .row.dev-toolbar {
+  display: none;
+  flex: 0 1 auto;
+
+  background-color: white;
+}
+
+.dev-toolbar ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.dev-toolbar ul li {
+  display: inline;
+  padding: 0 10px 0 0;
 }
 
 .box .row.content {

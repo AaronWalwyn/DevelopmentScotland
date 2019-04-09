@@ -9,8 +9,8 @@ function Initialise()
 {
     var map = L.map( 'map', {
         center: [55.948513, -3.199966],
-        minZoom:10,
-        zoom: 12,
+        minZoom:12,
+        zoom: 14,
 
         attributionControl: false
     });
@@ -33,7 +33,6 @@ function LoadDevelopmentData()
 function __LoadDevelopmentData(data)
 {
     var count = data.developments.length;
-    console.log("Count: " + count);
 
     var latDif = 55.9642874 - 55.9622216;
     var longDif = -3.2186344 - -3.2226714
@@ -90,7 +89,7 @@ function __SetupDevFeatures()
                     s += ',\n';
                 }
             }
-            
+
             console.log(s);
         }
         else
