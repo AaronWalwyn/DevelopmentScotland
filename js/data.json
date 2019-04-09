@@ -3,6 +3,7 @@
         {
             "Name" : "Edinburgh St James",
             "URL" : "https://www.skyscrapercity.com/showthread.php?t=1647714",
+            "Image" : "https://images.boxxed.com/esj-website/Gallery/Edinburgh-St-James.jpg",
             "Points" : [
                 {"lat" : 55.9540385, "long" : -3.1888131},
                 {"lat" : 55.9543959, "long" : -3.1890332},
@@ -25,6 +26,7 @@
         {
             "Name" : "New Waverly",
             "URL" : "https://www.skyscrapercity.com/showthread.php?t=1657111",
+            "Image" : "http://newwaverley.com/wp-content/uploads/2016/05/Live-Here-CGI-Resize.png",
             "Points" : [
                 {"lat" : 55.9512182, "long" : -3.1816023}, 
                 {"lat" : 55.9514645, "long" : -3.1818117}, 
@@ -42,12 +44,221 @@
         {
             "Name" : "The Haymarket",
             "URL" : "https://www.skyscrapercity.com/showthread.php?t=1609426",
+            "Image" : "https://i.imgur.com/jfs17hV.jpg",
             "Points" : [
-                {"lat" : 55.946307, "long" : -3.1929159},
-                {"lat" : 55.9456527, "long" : -3.2043714},
-                {"lat" : 55.9510052, "long" : -3.2058432},
-                {"lat" : 55.9507843, "long" : -3.1940235}
+                {"lat" : 55.9454330, "long" : -3.2171149}, 
+                {"lat" : 55.9451747, "long" : -3.2159714}, 
+                {"lat" : 55.9449644, "long" : -3.2149890}, 
+                {"lat" : 55.9452017, "long" : -3.2143287}, 
+                {"lat" : 55.9454180, "long" : -3.2144253}, 
+                {"lat" : 55.9457214, "long" : -3.2144253}, 
+                {"lat" : 55.9460669, "long" : -3.2144737}, 
+                {"lat" : 55.9460939, "long" : -3.2145971}, 
+                {"lat" : 55.9461029, "long" : -3.2163418}, 
+                {"lat" : 55.9460789, "long" : -3.2165136}, 
+                {"lat" : 55.9460098, "long" : -3.2166424}, 
+                {"lat" : 55.9454270, "long" : -3.2171256}
             ]
+        },
+        {
+            "Name" : "Edinburgh Park South",
+            "URL" : "https://i.imgur.com/pZLdeRZ.jpg",
+            "Image" : "https://i.imgur.com/pZLdeRZ.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Edinburgh Marina",
+            "URL" : "https://i.imgur.com/NdwxRnP.jpg",
+            "Image" : "https://i.imgur.com/NdwxRnP.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "India Quay",
+            "URL" : "https://i.imgur.com/qrGq9rR.jpg",
+            "Image" : "https://i.imgur.com/qrGq9rR.jpg",
+            "Points" : [
+                {"lat" : 55.9424289, "long" : -3.2121813},
+                {"lat" : 55.9429817, "long" : -3.2099497},
+                {"lat" : 55.9426452, "long" : -3.2096279},
+                {"lat" : 55.9426032, "long" : -3.2089949},
+                {"lat" : 55.9424710, "long" : -3.2089520},
+                {"lat" : 55.9423027, "long" : -3.2086515},
+                {"lat" : 55.9414015, "long" : -3.2110870},
+                {"lat" : 55.9417259, "long" : -3.2116020},
+                {"lat" : 55.9420083, "long" : -3.2121921},
+                {"lat" : 55.9421585, "long" : -3.2125247},
+                {"lat" : 55.9423148, "long" : -3.2121384}
+            ]
+        },
+        {
+            "Name" : "Edinburgh International Business Gateway (EIBG)",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/PQp0V20.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Shawfair",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/wUS5aTr.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Quartermile",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/27QVI0h.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "The Registers",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/rCDP2Dc.jpg",
+            "Points" : [
+                {"lat" : 55.9539363, "long" : -3.1917214},
+                {"lat" : 55.9540625, "long" : -3.1909490},
+                {"lat" : 55.9535369, "long" : -3.1906539},
+                {"lat" : 55.9534618, "long" : -3.1910509},
+                {"lat" : 55.9537742, "long" : -3.1912386},
+                {"lat" : 55.9537051, "long" : -3.1916142}
+            ]
+        },
+        {
+            "Name" : "Western Harbour",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/rojc6zo.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Exchange 2",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/rTBDPdu.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "New Fountainbridge",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/zvLMNxQ.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "King's Stables Road",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/1KVInEP.jpg",
+            "Points" : [
+                {"lat" : 55.9472384, "long" : -3.1997520},
+                {"lat" : 55.9472264, "long" : -3.2009214},
+                {"lat" : 55.9468629, "long" : -3.2009214},
+                {"lat" : 55.9469049, "long" : -3.1997627},
+                {"lat" : 55.9469019, "long" : -3.1990010},
+                {"lat" : 55.9470852, "long" : -3.1989956},
+                {"lat" : 55.9471032, "long" : -3.1997627}
+            ]
+        },
+        {
+            "Name" : "New Town North",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/G4Fhm8M.jpg",
+            "Points" : [
+                {"lat" : 55.9602338, "long" : -3.2007766},
+                {"lat" : 55.9593089, "long" : -3.2002723},
+                {"lat" : 55.9596452, "long" : -3.1982875},
+                {"lat" : 55.9596092, "long" : -3.1980085},
+                {"lat" : 55.9596032, "long" : -3.1975472},
+                {"lat" : 55.9596152, "long" : -3.1971180},
+                {"lat" : 55.9597173, "long" : -3.1965923},
+                {"lat" : 55.9598855, "long" : -3.1961846},
+                {"lat" : 55.9600056, "long" : -3.1960344},
+                {"lat" : 55.9601677, "long" : -3.1959486},
+                {"lat" : 55.9602758, "long" : -3.1958199},
+                {"lat" : 55.9603419, "long" : -3.1959164},
+                {"lat" : 55.9602758, "long" : -3.1961417},
+                {"lat" : 55.9601617, "long" : -3.1962061},
+                {"lat" : 55.9600656, "long" : -3.1963348},
+                {"lat" : 55.9600116, "long" : -3.1963778},
+                {"lat" : 55.9603899, "long" : -3.1965923},
+                {"lat" : 55.9601857, "long" : -3.1981695},
+                {"lat" : 55.9602098, "long" : -3.1984055},
+                {"lat" : 55.9602939, "long" : -3.1985128},
+                {"lat" : 55.9604020, "long" : -3.1985772},
+                {"lat" : 55.9604980, "long" : -3.1986415},
+                {"lat" : 55.9606722, "long" : -3.1987381},
+                {"lat" : 55.9609425, "long" : -3.1989527},
+                {"lat" : 55.9608103, "long" : -3.1994677},
+                {"lat" : 55.9606061, "long" : -3.1993282},
+                {"lat" : 55.9605521, "long" : -3.1993604},
+                {"lat" : 55.9604860, "long" : -3.1993818},
+                {"lat" : 55.9604080, "long" : -3.1993175},
+                {"lat" : 55.9603479, "long" : -3.1993818},
+                {"lat" : 55.9603179, "long" : -3.1995213},
+                {"lat" : 55.9601557, "long" : -3.1994569},
+                {"lat" : 55.9601137, "long" : -3.1996500},
+                {"lat" : 55.9604500, "long" : -3.1998003}
+            ]
+        },
+        {
+            "Name" : "Granton Waterfront Regeneration",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/fY7EpQy.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Former Royal Hospital for Sick Children Redevelopment",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/lCMBsml.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Former Leith Walk Tramway Depot Redevelopment",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/SP1Jpcc.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Craigmillar Regeneration",
+            "URL" : "",
+            "Image" : "http://i.imgur.com/AkSKUve.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Pennywell & Muirhouse Civic Centre",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/Gm6wNLu.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "St Margaret's House Redevelopment",
+            "URL" : "",
+            "Image" : "http://i.imgur.com/m7nROQA.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Edinburgh Innovation Park",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/1aF6H7P.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Crosswind",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/ZGIQNDw.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Stead's Place",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/dHA32YQ.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "St John's Road",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/SnhvqdR.jpg",
+            "Points" : []
+        },
+        {
+            "Name" : "Powderhall Redevelopment",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/Uu7w0M7.jpg",
+            "Points" : []
         }
     ]
 }

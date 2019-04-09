@@ -1,80 +1,129 @@
 body {
-    background-color: grey;
-    margin: 0;
-    height: 100vh;
+  background-color: grey;
+  margin: 0;
+  height: 100vh;
 
-    font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: 'Ubuntu', sans-serif !important;
 }
 
 #header {
-    background-color: #272727;
-    color: white;
+  background-color: #272727;
+  color: white;
 
-    padding: 5px 10px;
+  padding: 5px 10px;
+}
+
+#footer {
+  color: rgb(168, 168, 168);
+  background-color: #272727;
+  padding: 5px;
+  font-size: 7.5pt;
+}
+
+#footer p {
+  margin: 0;
+}
+
+.footer-list {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  display: inline;
+}
+
+#footer-right {
+  float: right;
+  clear: both;
+}
+
+#footer-right li {
+  padding: 0 0 0 15px;
+}
+
+#footer-left li {
+  padding: 0 15px 0 0;;
+}
+
+.footer-list li a {
+  color: rgb(168, 168, 168);
 }
 
 #header img {
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    margin-right: 10px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 #header h1 {
-    display: inline;
-    margin: 0;
-    font-size: 15pt;
+  display: inline;
+  margin: 0;
+  font-size: 15pt;
 }
 
 .box {
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-  }
-  
-  .box .row {
-    border: 1px dotted grey;
-  }
-  
-  .box .row.header {
-    flex: 0 1 auto;
-    /* The above is shorthand for:
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+  border: 1px dotted grey;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+  /* The above is shorthand for:
     flex-grow: 0,
     flex-shrink: 1,
     flex-basis: auto
     */
-  }
-  
-  .box .row.content {
-    flex: 1 1 auto;
-  }
-  
-  .box .row.footer {
-    flex: 0 1 40px;
-  }
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .row.footer {
+  flex: 0 1 auto;/*40px;*/
+}
 
 #loading-frame {
-    height: 100vh; 
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    right: 0;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #loading-frame p {
-    color: whitesmoke;
-    font-size: 36pt;
+  color: whitesmoke;
+  font-size: 36pt;
 
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100vh;  
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100vh;
 }
 
-#map
-{
-    /*height: 100vh; 
+/* Map Styles */
+#map {
+  /*height: 100vh; 
     width: 100vw;
     position: absolute;
     top: 0;
     right: 0;*/
+}
+
+.development {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.development-thumb {
+  width: 200px;
+  height: auto;
 }

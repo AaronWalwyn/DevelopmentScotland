@@ -1,46 +1,61 @@
-<html>
-    <head>
-            <!--Title & Favicon-->
-            <title>Development Scotland - Edinburgh</title>
-            <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-            <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-            <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-            <link rel="manifest" href="site.webmanifest">
+<html lang="en">
 
-            <!--Meta Data-->
-            <meta charset="UTF-8">
-            <meta name="author" content="Aaron Walwyn">
-            <meta name="description" content="">
-            <meta name="keywords" content="HTML, CSS, XML, JavaScript">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <!--Title & Favicon-->
+    <title>Development Scotland - Edinburgh</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
-            <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
-            <link rel="stylesheet" type="text/css" href="css/style.css" />
-      
-            <!--<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>-->
-            <script type='text/javascript' src="js/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-            <script type='text/javascript' src='js/leaflet.js'></script>
-            <script type='text/javascript' src="js/leaflet-providers.js"></script>
-    </head>
-    <body>
-            <div class="box">
-                <div class="row header" id="header">
-                    <img src="img/apple-touch-icon.png"/>
-                    <h1>DS Edinburgh</h1>
-                </div>
-                <div class="row content" id="map">
-                    <p>
-                    <b>content</b>
-                    (fills remaining space)
-                    </p>
-                    <!--<div id="map"></div>-->
-                </div>
-                <!--<div class="row footer">
-                    <p><b>footer</b> (fixed height)</p>
-                </div>-->
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Aaron Walwyn">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Style-->
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <!--<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>-->
+    <script type='text/javascript' src="js/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='js/leaflet.js'></script>
+    <script type='text/javascript' src="js/leaflet-providers.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="row header" id="header">
+            <!--<img src="img/apple-touch-icon.png" />-->
+            <div>
+                <h1>DevelopmentScotland / Edinburgh</h1>
+                <p>Edinburgh Development Summary 2019</p>
             </div>
+        </div>
+        <div class="row content" id="map">
+            <p>
+                Loading...
+            </p>
+            <!--<div id="map"></div>-->
+        </div>
+        <div class="row footer" id="footer">
+            <ul class="footer-list" id="footer-left">
+                <li><a href="http://aaronwalwyn.com" target="_blank">Aaron Walwyn</a></li>
+                <li><a href="https://twitter.com/AaronWalwynUK" target="_blank">Twitter</a></li>
+            </ul>
+            <ul class="footer-list" id="footer-right">
+                <li><a href="https://github.com/AaronWalwyn/DevelopmentScotland" target="_blank">GitHub</a></li>
+                <li><a href="https://www.skyscrapercity.com/forumdisplay.php?f=3733" target="_blank">Skycraper City</a></li>
+                <li><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a></li>                
+            </ul>
+        </div>
+    </div>
 
-            <script type='text/javascript' src='js/data.json'></script>
-            <script type='text/javascript' src='js/main.js'></script>
-    </body>
+    <script type='text/javascript' src='js/main.js'></script>
+</body>
+
 </html>
