@@ -4,15 +4,22 @@
 
 var _devPolyCreated = false;
 var _devPoly;
+var _devFeaturesEnabled = false;
 
 SetupDeveloperFeatures();
 
 function SetupDeveloperFeatures() {
+
     $("#btn-new-shape").click(function () {
         alert("Handler for .click() called.");
     });
 
     _map.on('click', function (e) {
+
+        if(_devFeaturesEnabled == false)
+        {
+            return;
+        }
 
         if (_devPolyCreated) {
             _devPoly.addLatLng(e.latlng);
@@ -43,11 +50,13 @@ function SetupDeveloperFeatures() {
 function EnableDeveloperFeatures() {
     $(".dev-toolbar").show();
 
+    _devFeaturesEnabled = true;
     console.log("Developer Features Enabled");
 }
 
 function DisableDeveloperFeatures() {
     $(".dev-toolbar").hide();
 
+    _devFeaturesEnabled = false;
     console.log("Developer Features Disabled");
 }
