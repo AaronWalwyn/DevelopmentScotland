@@ -7,6 +7,14 @@
         "ac" : { 
             "Name":"Arts & Cultural Developments",
             "Colour" : "#00FF00"
+        },
+        "rd" : { 
+            "Name":"Retail Development",
+            "Colour" : "#FF00FF"
+        },
+        "hd" : { 
+            "Name":"Hotel Development",
+            "Colour" : "#00FFFF"
         }
     },
     "developments" : [
@@ -78,7 +86,40 @@
             "Category" : "md",
             "URL" : "https://i.imgur.com/pZLdeRZ.jpg",
             "Image" : "https://i.imgur.com/pZLdeRZ.jpg",
-            "Points" : []
+            "Points" : [
+                {"lat" : 55.9302720, "long" : -3.3138800},
+                {"lat" : 55.9318466, "long" : -3.3148456},
+                {"lat" : 55.9316183, "long" : -3.3159828},
+                {"lat" : 55.9308249, "long" : -3.3154035},
+                {"lat" : 55.9303201, "long" : -3.3176994},
+                {"lat" : 55.9310413, "long" : -3.3181930},
+                {"lat" : 55.9306446, "long" : -3.3198023},
+                {"lat" : 55.9302359, "long" : -3.3195019},
+                {"lat" : 55.9304763, "long" : -3.3185577},
+                {"lat" : 55.9295267, "long" : -3.3177423},
+                {"lat" : 55.9286492, "long" : -3.3166909},
+                {"lat" : 55.9283246, "long" : -3.3175492},
+                {"lat" : 55.9280361, "long" : -3.3172488},
+                {"lat" : 55.9283005, "long" : -3.3162832},
+                {"lat" : 55.9278437, "long" : -3.3157682},
+                {"lat" : 55.9276514, "long" : -3.3154035},
+                {"lat" : 55.9274350, "long" : -3.3148241},
+                {"lat" : 55.9271224, "long" : -3.3144164},
+                {"lat" : 55.9269061, "long" : -3.3139443},
+                {"lat" : 55.9271465, "long" : -3.3116055},
+                {"lat" : 55.9269782, "long" : -3.3113265},
+                {"lat" : 55.9268700, "long" : -3.3110261},
+                {"lat" : 55.9268339, "long" : -3.3107257},
+                {"lat" : 55.9268099, "long" : -3.3100605},
+                {"lat" : 55.9273629, "long" : -3.3057475},
+                {"lat" : 55.9290218, "long" : -3.3065844},
+                {"lat" : 55.9289136, "long" : -3.3094811},
+                {"lat" : 55.9316423, "long" : -3.3110690},
+                {"lat" : 55.9316303, "long" : -3.3113909},
+                {"lat" : 55.9306927, "long" : -3.3108115},
+                {"lat" : 55.9301277, "long" : -3.3131504},
+                {"lat" : 55.9303321, "long" : -3.3133221}
+            ]
         },
         {
             "Name" : "Edinburgh Marina",
@@ -153,7 +194,28 @@
             "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/rTBDPdu.jpg",
-            "Points" : []
+            "Points" : [
+                {"lat" : 55.9469470, "long" : -3.2119668},
+                {"lat" : 55.9465265, "long" : -3.2111192},
+                {"lat" : 55.9461900, "long" : -3.2110870},
+                {"lat" : 55.9460578, "long" : -3.2109475},
+                {"lat" : 55.9459317, "long" : -3.2103789},
+                {"lat" : 55.9464844, "long" : -3.2097566},
+                {"lat" : 55.9464423, "long" : -3.2093489},
+                {"lat" : 55.9465985, "long" : -3.2093060},
+                {"lat" : 55.9467728, "long" : -3.2099712},
+                {"lat" : 55.9472294, "long" : -3.2094991},
+                {"lat" : 55.9474276, "long" : -3.2092845},
+                {"lat" : 55.9475357, "long" : -3.2091343},
+                {"lat" : 55.9476078, "long" : -3.2090485},
+                {"lat" : 55.9476559, "long" : -3.2090163},
+                {"lat" : 55.9478902, "long" : -3.2094240},
+                {"lat" : 55.9477520, "long" : -3.2096386},
+                {"lat" : 55.9476739, "long" : -3.2095528},
+                {"lat" : 55.9472113, "long" : -3.2101214},
+                {"lat" : 55.9470852, "long" : -3.2109261},
+                {"lat" : 55.9469590, "long" : -3.2110977}
+            ]
         },
         {
             "Name" : "New Fountainbridge",
@@ -231,14 +293,38 @@
             "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/lCMBsml.jpg",
-            "Points" : []
+            "Points" : [
+                {"lat" : 55.9393945, "long" : -3.1901550},
+                {"lat" : 55.9381206, "long" : -3.1900263},
+                {"lat" : 55.9380245, "long" : -3.1881487},
+                {"lat" : 55.9385954, "long" : -3.1883633},
+                {"lat" : 55.9386915, "long" : -3.1878805},
+                {"lat" : 55.9394126, "long" : -3.1881380},
+                {"lat" : 55.9393345, "long" : -3.1895649}
+            ]
         },
         {
             "Name" : "Former Leith Walk Tramway Depot Redevelopment",
             "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/SP1Jpcc.jpg",
-            "Points" : []
+            "Points" : [
+                {"lat" : 55.9677161, "long" : -3.1741905},
+                {"lat" : 55.9670196, "long" : -3.1717873},
+                {"lat" : 55.9674459, "long" : -3.1716907},
+                {"lat" : 55.9678062, "long" : -3.1714547},
+                {"lat" : 55.9679023, "long" : -3.1722271},
+                {"lat" : 55.9679443, "long" : -3.1723130},
+                {"lat" : 55.9681905, "long" : -3.1720877},
+                {"lat" : 55.9682325, "long" : -3.1722057},
+                {"lat" : 55.9682865, "long" : -3.1721628},
+                {"lat" : 55.9683406, "long" : -3.1721735},
+                {"lat" : 55.9683706, "long" : -3.1722915},
+                {"lat" : 55.9684787, "long" : -3.1725061},
+                {"lat" : 55.9685447, "long" : -3.1728601},
+                {"lat" : 55.9684547, "long" : -3.1729567},
+                {"lat" : 55.9685327, "long" : -3.1734180}
+            ]
         },
         {
             "Name" : "Craigmillar Regeneration",
@@ -280,7 +366,42 @@
             "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/dHA32YQ.jpg",
-            "Points" : []
+            "Points" : [
+                {"lat" : 55.9707963, "long" : -3.1795120},
+                {"lat" : 55.9698717, "long" : -3.1783962},
+                {"lat" : 55.9696675, "long" : -3.1784177},
+                {"lat" : 55.9694754, "long" : -3.1781602},
+                {"lat" : 55.9694034, "long" : -3.1778598},
+                {"lat" : 55.9693913, "long" : -3.1775540},
+                {"lat" : 55.9694154, "long" : -3.1772268},
+                {"lat" : 55.9694394, "long" : -3.1770390},
+                {"lat" : 55.9693763, "long" : -3.1768566},
+                {"lat" : 55.9692382, "long" : -3.1766796},
+                {"lat" : 55.9691752, "long" : -3.1765777},
+                {"lat" : 55.9691992, "long" : -3.1764543},
+                {"lat" : 55.9690431, "long" : -3.1762075},
+                {"lat" : 55.9686288, "long" : -3.1756175},
+                {"lat" : 55.9686768, "long" : -3.1753492},
+                {"lat" : 55.9686288, "long" : -3.1751025},
+                {"lat" : 55.9682805, "long" : -3.1745553},
+                {"lat" : 55.9679983, "long" : -3.1749201},
+                {"lat" : 55.9678422, "long" : -3.1746197},
+                {"lat" : 55.9678002, "long" : -3.1742764},
+                {"lat" : 55.9689891, "long" : -3.1733215},
+                {"lat" : 55.9691151, "long" : -3.1739116},
+                {"lat" : 55.9695835, "long" : -3.1734395},
+                {"lat" : 55.9704541, "long" : -3.1747484},
+                {"lat" : 55.9705441, "long" : -3.1745875},
+                {"lat" : 55.9707303, "long" : -3.1747270},
+                {"lat" : 55.9711085, "long" : -3.1754780},
+                {"lat" : 55.9713066, "long" : -3.1760681},
+                {"lat" : 55.9711626, "long" : -3.1764114},
+                {"lat" : 55.9713547, "long" : -3.1762826},
+                {"lat" : 55.9714387, "long" : -3.1763470},
+                {"lat" : 55.9715768, "long" : -3.1764758},
+                {"lat" : 55.9716429, "long" : -3.1765831},
+                {"lat" : 55.9712886, "long" : -3.1779349}
+            ]
         },
         {
             "Name" : "St John's Road",
@@ -294,7 +415,19 @@
             "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/Uu7w0M7.jpg",
-            "Points" : []
+            "Points" : [
+                {"lat" : 55.9667854, "long" : -3.1904769},
+                {"lat" : 55.9662930, "long" : -3.1911635},
+                {"lat" : 55.9658367, "long" : -3.1906271},
+                {"lat" : 55.9654404, "long" : -3.1897902},
+                {"lat" : 55.9657166, "long" : -3.1894255},
+                {"lat" : 55.9662330, "long" : -3.1891036},
+                {"lat" : 55.9666173, "long" : -3.1886530},
+                {"lat" : 55.9670376, "long" : -3.1880951},
+                {"lat" : 55.9679263, "long" : -3.1893611},
+                {"lat" : 55.9676381, "long" : -3.1907773},
+                {"lat" : 55.9673138, "long" : -3.1914854}
+            ]
         },
         {
             "Name" : "The IMPACT Centre",
@@ -318,6 +451,177 @@
                 {"lat" : 55.9548133, "long" : -3.1911153},
                 {"lat" : 55.9547472, "long" : -3.1913459},
                 {"lat" : 55.9546391, "long" : -3.1913084}
+            ]
+        },
+        {
+            "Name" : "The Quaich Project",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Scottish National Gallery Project",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "King's Theatre Restoration",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "National Collections Facility (NCF)",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Fruitmarket Gallery Redevelopment",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Castle Mill Works",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "National Museum of Scotland Redevelopment",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Spotlight Cinema",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Leith Theatre Restoration",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Queen's Hall Regeneration",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Waverley Market",
+            "Category" : "rd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Gyle Shopping Centre Expansion",
+            "Category" : "rd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "BHS Redevelopment",
+            "Category" : "rd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Fort Kinnaird Refurbishment",
+            "Category" : "rd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "Porta",
+            "Category" : "rd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "",
+            "Category" : "rd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "W Edinburgh",
+            "Category" : "hd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
+            ]
+        },
+        {
+            "Name" : "",
+            "Category" : "hd",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                
             ]
         }
     ]
