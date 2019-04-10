@@ -16,6 +16,8 @@ function SetupDeveloperFeatures() {
 
     _map.on('click', function (e) {
 
+        console.Log
+
         if(_devFeaturesEnabled == false)
         {
             return;
