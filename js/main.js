@@ -1,9 +1,8 @@
-var _devPoly;
-var _devPolyCreated = false;
+var _categories;
+var _developments;
 
 var _map = Initialise();
 LoadDevelopmentData();
-__SetupDevFeatures();
 
 function Initialise()
 {
@@ -32,14 +31,19 @@ function LoadDevelopmentData()
 
 function __LoadDevelopmentData(data)
 {
-    var count = data.developments.length;
+    _categories = data.categories;
+    _developments = data.developments;
+
+    var count = _developments.length;
 
     var latDif = 55.9642874 - 55.9622216;
     var longDif = -3.2186344 - -3.2226714
 
     for(var i = 0; i < count; i++)
     {
-        points = data.developments[i].Points;
+        var development = _developments[i];
+        var category = _categories[development.Category];
+        points = development.Points;
 
         if(points.length == 0)
         {
@@ -57,12 +61,17 @@ function __LoadDevelopmentData(data)
 
         var polygon = L.polygon(latlngs).addTo( _map );
 
+        polygon.setStyle({
+            fillColor : category.Colour,
+            color: category.Colour
+        });
+
         var pop =   "<div class=\"development\">";
-        pop +=      "<div class=\"development-name\">" + data.developments[i].Name + "</div>";
-        pop +=      "<img class=\"development-thumb\" src=\"" + data.developments[i].Image + "\">"
+        pop +=      "<div class=\"development-name\">" + development.Name + "</div>";
+        pop +=      "<img class=\"development-thumb\" src=\"" + development.Image + "\">"
         pop +=      "<ul>"
-        pop +=      "<li><a href=\"" + data.developments[i].URL + "\" target=\"_blank\">Official Website</a></li>"
-        pop +=      "<li><a href=\"" + data.developments[i].URL + "\" target=\"_blank\">Skyscraper City</a></li>"
+        pop +=      "<li><a href=\"" + development.URL + "\" target=\"_blank\">Official Website</a></li>"
+        pop +=      "<li><a href=\"" + development.URL + "\" target=\"_blank\">Skyscraper City</a></li>"
         pop +=      "</ul>"
         pop +=      "</div>"
         
@@ -70,7 +79,7 @@ function __LoadDevelopmentData(data)
     }
 }
 
-function __SetupDevFeatures()
+/*function __SetupDevFeatures()
 {
     _map.on('click', function(e) {
 
@@ -98,4 +107,4 @@ function __SetupDevFeatures()
             _devPolyCreated = true;
         }              
     });
-}
+}*/

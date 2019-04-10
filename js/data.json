@@ -1,7 +1,18 @@
 {
+    "categories" : {
+        "md" : {
+            "Name" : "Mixed-Use Developments",
+            "Colour" : "#FF0000"
+        },
+        "ac" : { 
+            "Name":"Arts & Cultural Developments",
+            "Colour" : "#00FF00"
+        }
+    },
     "developments" : [
         {
             "Name" : "Edinburgh St James",
+            "Category" : "md",
             "URL" : "https://www.skyscrapercity.com/showthread.php?t=1647714",
             "Image" : "https://images.boxxed.com/esj-website/Gallery/Edinburgh-St-James.jpg",
             "Points" : [
@@ -25,6 +36,7 @@
         },
         {
             "Name" : "New Waverly",
+            "Category" : "md",
             "URL" : "https://www.skyscrapercity.com/showthread.php?t=1657111",
             "Image" : "http://newwaverley.com/wp-content/uploads/2016/05/Live-Here-CGI-Resize.png",
             "Points" : [
@@ -43,6 +55,7 @@
         },
         {
             "Name" : "The Haymarket",
+            "Category" : "md",
             "URL" : "https://www.skyscrapercity.com/showthread.php?t=1609426",
             "Image" : "https://i.imgur.com/jfs17hV.jpg",
             "Points" : [
@@ -62,18 +75,21 @@
         },
         {
             "Name" : "Edinburgh Park South",
+            "Category" : "md",
             "URL" : "https://i.imgur.com/pZLdeRZ.jpg",
             "Image" : "https://i.imgur.com/pZLdeRZ.jpg",
             "Points" : []
         },
         {
             "Name" : "Edinburgh Marina",
+            "Category" : "md",
             "URL" : "https://i.imgur.com/NdwxRnP.jpg",
             "Image" : "https://i.imgur.com/NdwxRnP.jpg",
             "Points" : []
         },
         {
             "Name" : "India Quay",
+            "Category" : "md",
             "URL" : "https://i.imgur.com/qrGq9rR.jpg",
             "Image" : "https://i.imgur.com/qrGq9rR.jpg",
             "Points" : [
@@ -92,24 +108,28 @@
         },
         {
             "Name" : "Edinburgh International Business Gateway (EIBG)",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/PQp0V20.jpg",
             "Points" : []
         },
         {
             "Name" : "Shawfair",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/wUS5aTr.jpg",
             "Points" : []
         },
         {
             "Name" : "Quartermile",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/27QVI0h.jpg",
             "Points" : []
         },
         {
             "Name" : "The Registers",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/rCDP2Dc.jpg",
             "Points" : [
@@ -123,24 +143,28 @@
         },
         {
             "Name" : "Western Harbour",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/rojc6zo.jpg",
             "Points" : []
         },
         {
             "Name" : "Exchange 2",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/rTBDPdu.jpg",
             "Points" : []
         },
         {
             "Name" : "New Fountainbridge",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/zvLMNxQ.jpg",
             "Points" : []
         },
         {
             "Name" : "King's Stables Road",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/1KVInEP.jpg",
             "Points" : [
@@ -155,6 +179,7 @@
         },
         {
             "Name" : "New Town North",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/G4Fhm8M.jpg",
             "Points" : [
@@ -196,77 +221,104 @@
         },
         {
             "Name" : "Granton Waterfront Regeneration",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/fY7EpQy.jpg",
             "Points" : []
         },
         {
             "Name" : "Former Royal Hospital for Sick Children Redevelopment",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/lCMBsml.jpg",
             "Points" : []
         },
         {
             "Name" : "Former Leith Walk Tramway Depot Redevelopment",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/SP1Jpcc.jpg",
             "Points" : []
         },
         {
             "Name" : "Craigmillar Regeneration",
+            "Category" : "md",
             "URL" : "",
             "Image" : "http://i.imgur.com/AkSKUve.jpg",
             "Points" : []
         },
         {
             "Name" : "Pennywell & Muirhouse Civic Centre",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/Gm6wNLu.jpg",
             "Points" : []
         },
         {
             "Name" : "St Margaret's House Redevelopment",
+            "Category" : "md",
             "URL" : "",
             "Image" : "http://i.imgur.com/m7nROQA.jpg",
             "Points" : []
         },
         {
             "Name" : "Edinburgh Innovation Park",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/1aF6H7P.jpg",
             "Points" : []
         },
         {
             "Name" : "Crosswind",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/ZGIQNDw.jpg",
             "Points" : []
         },
         {
             "Name" : "Stead's Place",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/dHA32YQ.jpg",
             "Points" : []
         },
         {
             "Name" : "St John's Road",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/SnhvqdR.jpg",
             "Points" : []
         },
         {
             "Name" : "Powderhall Redevelopment",
+            "Category" : "md",
             "URL" : "",
             "Image" : "https://i.imgur.com/Uu7w0M7.jpg",
             "Points" : []
-        }
-    ],
-    "categories" : [
-        {
-
         },
         {
-            
+            "Name" : "The IMPACT Centre",
+            "Category" : "ac",
+            "URL" : "",
+            "Image" : "https://i.imgur.com/uRxOHrx.jpg",
+            "Points" : [
+                {"lat" : 55.9545881, "long" : -3.1915390},
+                {"lat" : 55.9543388, "long" : -3.1913996},
+                {"lat" : 55.9543928, "long" : -3.1910723},
+                {"lat" : 55.9543748, "long" : -3.1910026},
+                {"lat" : 55.9542066, "long" : -3.1909114},
+                {"lat" : 55.9543568, "long" : -3.1898171},
+                {"lat" : 55.9544019, "long" : -3.1898385},
+                {"lat" : 55.9544349, "long" : -3.1897634},
+                {"lat" : 55.9547232, "long" : -3.1902999},
+                {"lat" : 55.9548854, "long" : -3.1904125},
+                {"lat" : 55.9548373, "long" : -3.1906754},
+                {"lat" : 55.9549785, "long" : -3.1907558},
+                {"lat" : 55.9549064, "long" : -3.1911743},
+                {"lat" : 55.9548133, "long" : -3.1911153},
+                {"lat" : 55.9547472, "long" : -3.1913459},
+                {"lat" : 55.9546391, "long" : -3.1913084}
+            ]
         }
     ]
 }
